@@ -1,7 +1,8 @@
 public class HelloWorld {
 	private String password;
 	private String username;
-    private String address;
+	private String address;
+
 	public String getUsername() {
 		return username;
 	}
@@ -17,5 +18,13 @@ public class HelloWorld {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-    
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
 }
