@@ -1,4 +1,5 @@
 public class HelloWorld {
+	private String password;
 	private String username;
     private String address;
 	public String getUsername() {
