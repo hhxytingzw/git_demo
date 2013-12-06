@@ -1,6 +1,6 @@
 public class HelloWorld {
 	private String username;
-
+    private String address;
 	public String getUsername() {
 		return username;
 	}
@@ -9,4 +9,12 @@ public class HelloWorld {
 		this.username = username;
 	}
 
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+    
 }
