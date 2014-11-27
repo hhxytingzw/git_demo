@@ -28,5 +28,7 @@ public class HelloWorld {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	
+	private Integer AGE;
 
 }
