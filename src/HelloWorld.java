@@ -2,6 +2,8 @@ public class HelloWorld {
 	private String password2;
 	private String username;
 	private String address;
+	
+	private String password;
 
 	public String getUsername() {
 		return username;
